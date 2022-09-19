@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-navbar.css">
+    <link rel="stylesheet" href="style-body.css">
+
+
+    <title>Eminca</title>
+    <script src="https://kit.fontawesome.com/d1691e29b4.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body onload="pedirVoto()">
+<header>
+    <nav class="nav-primary">
+            <div class="nav-div-img-content">
+                <img class="Img-logo-header" src="C:\Users\Rey\Desktop\Eminca web\img\logo-EMINCA-2.png" alt="">   
+            </div>
+ 
+        <div class="collage-list">
+
+            <ul class="nav-ul-list">
+                <li class="nav-li"><a href="#" class="border-red">Quienes Somos</a></li>
+                <li class="nav-li"><a href="#">Sectores</a></li>
+                <li class="nav-li nav-li-dropdown"><a href = "#">Venta y Distribucion</a><i class="fa-solid fa-caret-down"></i>
+                    <ul class="nav-ul-sub">
+                        <li class="nav-li nav-li-sub nav-sub-li-motores"><a href="#">Motores</a> <i class="fa-solid fa-caret-right"></i>
+
+                                <ul class="nav-ul-sub nav-ul-service nav-sub-motores nav-sub-motores-hover ">
+                                    <li class="nav-li nav-li-sub"><a href="#">Monofasicos</a> </li>
+                                    <li class="nav-li nav-li-sub"><a href="#">Trifasicos</a> </li>
+                                    <li class="nav-li nav-li-sub"><a href="#">Corriente Continua DC</a> </li>
+
+                                </ul> 
+                            
+                        </li>
+                        <li class="nav-li nav-li-sub nav-sub-li-motores"><a href="#">Generadores</a> <i class="fa-solid fa-caret-right"></i>
+                            <ul class="nav-ul-sub nav-ul-service nav-sub-motores nav-sub-motores-hover ">
+
+                                <li class="nav-li nav-li-sub"><a href="#">Abiertos</a> </li>
+                                <li class="nav-li nav-li-sub"><a href="#">Insonorizados</a> </li>
+                                <li class="nav-li nav-li-sub"><a href="#">Residenciales  </a> </li>
+                                <li class="nav-li nav-li-sub"><a href="#">Torres de iluminación  </a> </li>
+
+                            </ul> 
+                        </li>
+                        <li class="nav-li nav-li-sub nav-sub-li-motores"><a href="#">Arrancadores</a> <i class="fa-solid fa-caret-right"></i>
+                            <ul class="nav-ul-sub nav-ul-service nav-sub-motores nav-sub-motores-hover ">
+                                
+                                
+                                
+                                
+                                
+                                <li class="nav-li nav-li-sub"><a href="#">Suave</a> </li>
+                                <li class="nav-li nav-li-sub"><a href="#">Estrella – Triangulo</a> </li>
+                                <li class="nav-li nav-li-sub"><a href="#">Variación de Frecuencia  </a> </li>
+                                
+                            </ul> 
+                        </li>
+                        <li class="nav-li nav-li-sub nav-sub-li-motores"><a href="#">Sistemas de Control</a> <i class="fa-solid fa-caret-right"></i>
+                            <ul class="nav-ul-sub nav-ul-service nav-sub-motores nav-sub-motores-hover ">
+
+                                <li class="nav-li nav-li-sub"><a href="#">Interruptores</a> </li>
+                                <li class="nav-li nav-li-sub"><a href="#">Contactores</a> </li>
+                                <li class="nav-li nav-li-sub"><a href="#">Rele Térmicos  </a> </li>
+                                <li class="nav-li nav-li-sub"><a href="#">Temporizadores  </a> </li>
+                                <li class="nav-li nav-li-sub"><a href="#">Sistema de Monitoreo de Condiciones  </a> </li>
+                            </ul> </li>
+                        <li class="nav-li nav-li-sub nav-sub-li-motores"><a href="#">Bombas de Agua</a> <i class="fa-solid fa-caret-right"></i>
+                            <ul class="nav-ul-sub nav-ul-service nav-sub-motores nav-sub-motores-hover ">
+
+                                <li class="nav-li nav-li-sub"><a href="#">Centrifugas</a> </li>
+                                <li class="nav-li nav-li-sub"><a href="#">Pozo Profundo</a> </li>
+                                <li class="nav-li nav-li-sub"><a href="#">Sumergibles  </a> </li>
+                                <li class="nav-li nav-li-sub"><a href="#">Contra Incendios  </a> </li>
+                            </ul> </li>
+                        </li>
+                        <li class="nav-li nav-li-sub"><a href="#">Maquinas de Soldar</a></li>
+                    </ul>
+                </li>
+                <li class="nav-li"><a href="#">Ingenieria</a> </li>
+
+                <li class="nav-li nav-li-dropdown"  > <a href="#">Servicios</a>
+                    <i class="fa-solid fa-caret-down"></i>
+                    <ul class="nav-ul-sub nav-ul-service">
+                        <li class="nav-li nav-li-sub"><a href="#">Galeria de Reparaciones</a> </li>
+                    </ul> 
+                </li>
+                <li class="nav-li"><a href="#">Contacto</a></li>
+            </ul>
+
+
+
+            <ul class="nav_responsive-ul">
+                <div class="nav_responsive-button"></div>
+                <div class="nav_li-container">
+
+                    <li class="nav_responsive-li"><a href="#">Quienes Somos</a></li>
+                    <li class="nav_responsive-li"><a href="#">Sectores</a></li>
+                    <li class="nav_responsive-li"><a href="#">Venta y Distribucion</a></li>
+                    <li class="nav_responsive-li"><a href="#">Ingenieria</a> </li>
+                    <li class="nav_responsive-li"> <a href="#">Servicios</a> </li>
+                    <li class="nav_responsive-li"><a href="#">Contacto</a></li>                    
+
+                </div>
+            </ul>
+        </div>
+
+    </nav>
+</header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<div class="content-padding">
+    <div class="div-img-inicio">
+       
+    <div class="block-image-logo">
+        <img class="Img-logo-inicio lazyload" src="C:\Users\Rey\Desktop\Eminca web\img\logo-EMINCA-2.png" alt="IMG-LOGO">   
+    </div>
+       
+        <img class="Img-taller-inicio taller lazyload" src="C:\Users\Rey\Desktop\Eminca web\img\embobinados.jpg" alt="IMG">
+
+    </div>
+    <div class="div-p-color">
+        <p class="p-color-div-1">EMINCA inicia sus actividades en el año 1.993, enfocándose casi exclusivamente a la industria en el sector de motores y maquinarias eléctricas. Actualmente contamos con de 27 años de experiencia en la FABRICACIÓN DE BOBINAS ELÉCTRICAS Y RECONSTRUCCIÓN DE MOTORES, GENERADORES, MAQUINAS DE SOLDAR, entre otros.</p>
+    </div>
+    <div class="div-last-color-background">
+        
+        <p>Desde hace más de 10 años iniciamos la división de ventas de insumos y equipos, ofreciendo un servicio postventa en el cual garantizamos la puesta en marcha de los mismos. EMINCA también cuenta con alianzas y representaciones comerciales  nacionales como internacionales que permiten la pronta respuesta a sus soluciones eléctricas, tanto en la reconstrucción de equipos eléctricos  (motores eléctricos de baja media alta tensión/ AC- DC, generadores, máquinas de soldar, luminarias), como en la venta de los mismos.</p>
+    </div>
+    <hr>
+    <div class="primary-div-logo-easa lazyload">
+        <p>EMINCA es miembro activo de la Electrical Apparatus Service Association, organización internacional dedicada a agrupar los talleres de servicio de equipos eléctricos rotativos así como de capacitar su personal técnico, en todo lo referente a tecnologías, procedimientos y materiales modernos en la industria. Así mismo, establece normas y procedimientos en la reparación de los motores eléctricos. EASA está reconocida por el IEEE.</p>
+        <div class="div-logo-easa">
+            <img src="C:\Users\Rey\Desktop\Eminca web\img\EASA.png" alt="" class="logo-easa lazyload">
+        </div>
+    </div>
+    <hr>
+    <div class="div-mision-and-vision">
+        <div class="div-mision-h2">
+           <h2>MISION</h2>
+            <p class="p-mision-h2">Ofrecer servicios y productos de calidad, cumpliendo con las normativas nacionales e internacionales considerando de primera mano las necesidades de nuestros clientes, con personal altamente capacitado, motivado al logro y vocación de atención y servicio. </p>
+        </div>
+        
+        <div>
+            <h2>VISION</h2>
+            <p>Ser una empresa líder a nivel nacional que supere las expectativas de nuestros clientes usando como estrategia competitiva: Calidad de Servicio, reparaciones, asesoría e instalación, con una atención personalizada y oportuna.</p>
+        </div>
+        
+    </div>
+    <div>
+        <hr>
+
+        <h2>VALORES</h2>
+
+        <hr>
+        <div class="div-valores-info">
+            <div>
+                <img src="img/like.png " alt="" class="like lazyload">
+                <h3>Responsabilidad y Disciplina</h3>
+                <p>Respuesta anticipada ante la obligación contraída con actitud consciente, reflexiva y orientada al cumplimiento de los compromisos adquiridos, de forma ordenada y controlada para asegurar los mejores resultados ante nuestros clientes y frente a nuestro sistema de Gestión de calidad.</p>
+                <p> <strong>«Y todo lo que hagáis, hacedlo de corazón, como para el Señor y no para los hombres.» <br> COLOSENSES 3:23</strong> 
+                    </p>
+            </div>
+            
+            <div>
+                <img src="img/icon-confianza.svg" alt="" class="membership-img lazyload">
+
+                <h3>Respeto</h3>
+                <p>Reconocer y considerar las diferencias de cada individuo y diversidad de opiniones, demostrar honor, dignidad e integridad en la actuación. Escuchar a los demás y atender las sugerencias de los demás.</p>
+
+            </div>
+            
+            <div>
+                <img src="img/123.PNG" alt="" class="membership-img lazyload">
+
+                <h3>Honestidad e Integridad</h3>
+                <p>Procuramos trabajar respetando estándares de calidad y con materiales e insumos que garanticen la confiabilidad de nuestro producto final, debido a esto ofrecemos un servicio post-venta que haga valer el dinero y el tiempo invertido por nuestros clientes en la espera de sus servicios o productos.</p>
+                <p> 
+                <strong>
+                    «Pero sea vuestro hablar: Si, si; no, no; porque lo que es más de esto, de mal procede.» <br>
+                    MATEO 5:37
+                </strong></p>
+
+            </div>
+            
+            <div>
+                <img src="img/No-Word-Membership-Charity-300x300.png" alt="" class="membership-img lazyload">
+
+                <h3>Lealtad y Solidaridad</h3>
+                
+                <p>El sentimiento de pertenencia es nuestro principal valor, demostrando nuestro apoyo a nuestro semejantes en todo tiempo, actuando en reciprocidad tanto con clientes y compañeros de trabajo, construyendo relaciones sólidas y duraderas.</p>
+
+            </div>
+            
+            <div><img src="img/excelencia.png" alt="" class="membership-img lazyload">
+                <h3>Excelencia Compromiso y Respuesta eficaz</h3>
+                <p>Con valores éticos en la gestión que facilite un producto de excelencia y la convicción de brindar lo mejor de cada quien ante el trabajo. Ajustados a las necesidades y exigencias de nuestros clientes.</p>
+                <p> <strong>
+                    «La mano negligente empobrece; Mas la mano de los diligentes enriquece.» <br>
+                    PROVERBIOS 10:4
+                </strong></p>
+            </div>
+            
+        </div>
+        
+    </div>
+    <div>
+        <hr>
+        <h2>NUESTRAS POLITICAS</h2>
+        <hr>
+        
+    </div>
+
+    <div class="div-politicas-and-segurity">
+        <div>
+            <img src="C:\Users\Rey\Desktop\Eminca web\img\eminquin.png" alt="" class="lazyload">
+        </div>
+
+        <div>
+            <div class="div-h4">
+                <p> <strong>Seguridad Higiene y Ambiente</strong> </p  >
+                
+            </div>
+
+            <p>
+                Garantizar la protección de la vida y salud de todos los trabajadores de la empresa, de sus instalaciones y medio ambiente; creando y manteniendo condiciones de trabajo seguras y saludables, con un control de adecuado de riesgos asociados a los procesos, conservando el orden y la limpieza en todas las áreas y cumpliendo con las leyes venezolanas que en materia de salud y seguridad se encuentren vigentes.
+            </p>
+        
+            <div class="div-h4">
+                <p> <strong>Calidad</strong> </p>
+            </div>
+            <p>Fabricación oportuna de bobinas, venta de equipos, materiales y reconstrucción de motores eléctricos con calidad y excelencia para la satisfacción de nuestros clientes, a través del mejoramiento continuo del talento humano de la empresa.</p>
+
+
+        </div>
+    </div>
+    
+    <hr>
+
+    
+
+    
+</div>
+
+<footer>
+
+    <div class="footer-content">
+        <div>
+            <img src="C:\Users\Rey\Desktop\Eminca web\img\Eminca-06.png" alt="" class="img-footer-30x30 lazyload"> 
+            <p>Parque Industrial Guayana, Galpon #5, <br> Zona industrial Unare II. Puerto Ordaz - <br> Estado Bolívar -Venezuela</p>
+        </div>
+
+        <div>
+                <img src="C:\Users\Rey\Desktop\Eminca web\img\Eminca-05.png" alt="" class="img-footer-30x30 lazyload">
+                <p>asistencia@eminca.com <br> gerencia@eminca.com</p>
+        </div>
+        
+        <div>
+            <img src="C:\Users\Rey\Desktop\Eminca web\img\Eminca-07.png" alt="" class="img-footer-30x30 lazyload">
+            <p>+58 (0424) 946 5044 <br>
+            +58 (0424) 952 2342 <br>
+            +58 (0424) 923 0006</p> 
+        </div>
+
+        <div>
+            <img src="img/icono-facebook.png" alt="" class="icons-redes lazyload">
+            <img src="img/icono-twitter.png" alt="" class="icons-redes lazyload">
+            <img src="img/icono-instagram.png" alt="" class="icons-redes lazyload">
+
+
+            <p>Eminca Web 2022</p>
+        </div>
+    </div>
+
+    
+
+    
+
+</footer>
+
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script>
+</body>
+</html>
